@@ -1,7 +1,7 @@
 carrying = [0]
 
 elf_num = 0
-with open("input1+2.txt", "r") as file:
+with open("input.txt", "r") as file:
     while line := file.readline():
         if line == "\n":
             elf_num += 1
